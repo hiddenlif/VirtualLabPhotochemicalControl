@@ -1,4 +1,4 @@
-# Virtual Lab: photochemical control
+# Virtual Lab Task: Photochemical Reactor Control
 
 Choose diagnostic pulses for a simulated photoredox reactor, inspect their returned readings, and control flow, illumination, quenching, mitigation and product collection under shared resource limits.
 
