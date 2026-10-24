@@ -1,0 +1,512 @@
+[
+ {
+  "id": "practice_run_00",
+  "profile": {
+   "sessionId": "practice_run_00",
+   "feedConcentrations": {
+    "substrateA": 0.118,
+    "reactantB": 0.149,
+    "catalystMolPercent": 1.19
+   },
+   "activationEnergyJoulePerMol": 27462.8,
+   "preExponentialFactor": 4153.9,
+   "dimerizationActivationEnergyJoulePerMol": 33698.5,
+   "dimerizationPreExponentialFactor": 149.6,
+   "targetTemperatureC": 37.1,
+   "totalPhotonBudgetJoules": 1200.0,
+   "targetPurityMin": 95.0,
+   "targetYieldMin": 85.0,
+   "targetConversionEfficiency": 0.95
+  },
+  "optics": {
+   "catalystAbsorbancePeakNm": 455.6,
+   "molarExtinctionCoefficient": 19506.7,
+   "channelVolumeUl": 250.0,
+   "pecletNumber": 45.5
+  },
+  "assay": {
+   "measuredConversionPercent": 90.0,
+   "byproductOligomerPercent": 0.95,
+   "apparentResidenceTimeSec": 77.6,
+   "probeMenu": [
+    {
+     "id": 0,
+     "name": "blue_450nm_short_pulse",
+     "base": 1.0,
+     "driftGain": 2.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    },
+    {
+     "id": 1,
+     "name": "uva_365nm_long_pulse",
+     "base": 0.0,
+     "driftGain": 0.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.4,
+      "thermal_oligomer_runaway": 0.7,
+      "catalyst_poisoning": 0.7
+     }
+    },
+    {
+     "id": 2,
+     "name": "violet_420nm_mid_pulse",
+     "base": 0.0,
+     "driftGain": 1.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.55,
+      "thermal_oligomer_runaway": 0.55,
+      "catalyst_poisoning": 1.1
+     }
+    },
+    {
+     "id": 3,
+     "name": "blue_450nm_long_pulse",
+     "base": 1.6,
+     "driftGain": 0.3,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    }
+   ],
+   "probeBudget": 2,
+   "probeEnergyJoules": 155.0,
+   "probeNoise": 0.02
+  },
+  "quench": {
+   "scavengerConcentrationMolar": 0.052,
+   "reagentQuenchCapacity": 2
+  },
+  "kinetics": {
+   "reactionEnthalpyKJPerMol": -65.9,
+   "exothermDeltaT": 2.2
+  },
+  "harvest": {
+   "accumulatedPhotonEnergyJoules": 652.6,
+   "estimatedCrudeYieldPercent": 92.3
+  },
+  "hidden": {
+   "regime": "photobleaching_fade",
+   "drift": 0.124,
+   "noise": [
+    -0.0066,
+    0.0073,
+    -0.0156,
+    -0.019
+   ]
+  }
+ },
+ {
+  "id": "practice_run_01",
+  "profile": {
+   "sessionId": "practice_run_01",
+   "feedConcentrations": {
+    "substrateA": 0.127,
+    "reactantB": 0.175,
+    "catalystMolPercent": 1.42
+   },
+   "activationEnergyJoulePerMol": 28198.9,
+   "preExponentialFactor": 4062.5,
+   "dimerizationActivationEnergyJoulePerMol": 32670.9,
+   "dimerizationPreExponentialFactor": 153.4,
+   "targetTemperatureC": 34.1,
+   "totalPhotonBudgetJoules": 1200.0,
+   "targetPurityMin": 95.0,
+   "targetYieldMin": 85.0,
+   "targetConversionEfficiency": 0.95
+  },
+  "optics": {
+   "catalystAbsorbancePeakNm": 456.9,
+   "molarExtinctionCoefficient": 18777.4,
+   "channelVolumeUl": 250.0,
+   "pecletNumber": 46.9
+  },
+  "assay": {
+   "measuredConversionPercent": 90.0,
+   "byproductOligomerPercent": 0.72,
+   "apparentResidenceTimeSec": 88.5,
+   "probeMenu": [
+    {
+     "id": 0,
+     "name": "blue_450nm_short_pulse",
+     "base": 1.0,
+     "driftGain": 2.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    },
+    {
+     "id": 1,
+     "name": "uva_365nm_long_pulse",
+     "base": 0.0,
+     "driftGain": 0.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.4,
+      "thermal_oligomer_runaway": 0.7,
+      "catalyst_poisoning": 0.7
+     }
+    },
+    {
+     "id": 2,
+     "name": "violet_420nm_mid_pulse",
+     "base": 0.0,
+     "driftGain": 1.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.55,
+      "thermal_oligomer_runaway": 0.55,
+      "catalyst_poisoning": 1.1
+     }
+    },
+    {
+     "id": 3,
+     "name": "blue_450nm_long_pulse",
+     "base": 1.6,
+     "driftGain": 0.3,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    }
+   ],
+   "probeBudget": 2,
+   "probeEnergyJoules": 155.0,
+   "probeNoise": 0.02
+  },
+  "quench": {
+   "scavengerConcentrationMolar": 0.055,
+   "reagentQuenchCapacity": 2
+  },
+  "kinetics": {
+   "reactionEnthalpyKJPerMol": -65.1,
+   "exothermDeltaT": 2.1
+  },
+  "harvest": {
+   "accumulatedPhotonEnergyJoules": 640.8,
+   "estimatedCrudeYieldPercent": 93.0
+  },
+  "hidden": {
+   "regime": "thermal_oligomer_runaway",
+   "drift": -0.096,
+   "noise": [
+    -0.0126,
+    0.0021,
+    0.0107,
+    -0.002
+   ]
+  }
+ },
+ {
+  "id": "practice_run_02",
+  "profile": {
+   "sessionId": "practice_run_02",
+   "feedConcentrations": {
+    "substrateA": 0.112,
+    "reactantB": 0.161,
+    "catalystMolPercent": 1.24
+   },
+   "activationEnergyJoulePerMol": 28612.2,
+   "preExponentialFactor": 4112.4,
+   "dimerizationActivationEnergyJoulePerMol": 34041.2,
+   "dimerizationPreExponentialFactor": 159.0,
+   "targetTemperatureC": 41.8,
+   "totalPhotonBudgetJoules": 1200.0,
+   "targetPurityMin": 95.0,
+   "targetYieldMin": 85.0,
+   "targetConversionEfficiency": 0.95
+  },
+  "optics": {
+   "catalystAbsorbancePeakNm": 452.2,
+   "molarExtinctionCoefficient": 18803.4,
+   "channelVolumeUl": 250.0,
+   "pecletNumber": 43.9
+  },
+  "assay": {
+   "measuredConversionPercent": 90.0,
+   "byproductOligomerPercent": 0.61,
+   "apparentResidenceTimeSec": 72.6,
+   "probeMenu": [
+    {
+     "id": 0,
+     "name": "blue_450nm_short_pulse",
+     "base": 1.0,
+     "driftGain": 2.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    },
+    {
+     "id": 1,
+     "name": "uva_365nm_long_pulse",
+     "base": 0.0,
+     "driftGain": 0.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.4,
+      "thermal_oligomer_runaway": 0.7,
+      "catalyst_poisoning": 0.7
+     }
+    },
+    {
+     "id": 2,
+     "name": "violet_420nm_mid_pulse",
+     "base": 0.0,
+     "driftGain": 1.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.55,
+      "thermal_oligomer_runaway": 0.55,
+      "catalyst_poisoning": 1.1
+     }
+    },
+    {
+     "id": 3,
+     "name": "blue_450nm_long_pulse",
+     "base": 1.6,
+     "driftGain": 0.3,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    }
+   ],
+   "probeBudget": 2,
+   "probeEnergyJoules": 155.0,
+   "probeNoise": 0.02
+  },
+  "quench": {
+   "scavengerConcentrationMolar": 0.053,
+   "reagentQuenchCapacity": 2
+  },
+  "kinetics": {
+   "reactionEnthalpyKJPerMol": -62.7,
+   "exothermDeltaT": 2.2
+  },
+  "harvest": {
+   "accumulatedPhotonEnergyJoules": 620.9,
+   "estimatedCrudeYieldPercent": 93.7
+  },
+  "hidden": {
+   "regime": "catalyst_poisoning",
+   "drift": 0.139,
+   "noise": [
+    0.0065,
+    0.0118,
+    -0.0102,
+    0.0027
+   ]
+  }
+ },
+ {
+  "id": "practice_run_03",
+  "profile": {
+   "sessionId": "practice_run_03",
+   "feedConcentrations": {
+    "substrateA": 0.142,
+    "reactantB": 0.141,
+    "catalystMolPercent": 1.24
+   },
+   "activationEnergyJoulePerMol": 27431.1,
+   "preExponentialFactor": 3640.9,
+   "dimerizationActivationEnergyJoulePerMol": 34325.1,
+   "dimerizationPreExponentialFactor": 144.4,
+   "targetTemperatureC": 35.5,
+   "totalPhotonBudgetJoules": 1200.0,
+   "targetPurityMin": 95.0,
+   "targetYieldMin": 85.0,
+   "targetConversionEfficiency": 0.95
+  },
+  "optics": {
+   "catalystAbsorbancePeakNm": 451.9,
+   "molarExtinctionCoefficient": 17504.6,
+   "channelVolumeUl": 250.0,
+   "pecletNumber": 47.9
+  },
+  "assay": {
+   "measuredConversionPercent": 90.0,
+   "byproductOligomerPercent": 0.68,
+   "apparentResidenceTimeSec": 81.1,
+   "probeMenu": [
+    {
+     "id": 0,
+     "name": "blue_450nm_short_pulse",
+     "base": 1.0,
+     "driftGain": 2.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    },
+    {
+     "id": 1,
+     "name": "uva_365nm_long_pulse",
+     "base": 0.0,
+     "driftGain": 0.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.4,
+      "thermal_oligomer_runaway": 0.7,
+      "catalyst_poisoning": 0.7
+     }
+    },
+    {
+     "id": 2,
+     "name": "violet_420nm_mid_pulse",
+     "base": 0.0,
+     "driftGain": 1.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.55,
+      "thermal_oligomer_runaway": 0.55,
+      "catalyst_poisoning": 1.1
+     }
+    },
+    {
+     "id": 3,
+     "name": "blue_450nm_long_pulse",
+     "base": 1.6,
+     "driftGain": 0.3,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    }
+   ],
+   "probeBudget": 2,
+   "probeEnergyJoules": 155.0,
+   "probeNoise": 0.02
+  },
+  "quench": {
+   "scavengerConcentrationMolar": 0.052,
+   "reagentQuenchCapacity": 2
+  },
+  "kinetics": {
+   "reactionEnthalpyKJPerMol": -64.0,
+   "exothermDeltaT": 2.4
+  },
+  "harvest": {
+   "accumulatedPhotonEnergyJoules": 610.3,
+   "estimatedCrudeYieldPercent": 91.6
+  },
+  "hidden": {
+   "regime": "photobleaching_fade",
+   "drift": 0.066,
+   "noise": [
+    -0.0123,
+    -0.0129,
+    -0.0053,
+    -0.0017
+   ]
+  }
+ },
+ {
+  "id": "practice_run_04",
+  "profile": {
+   "sessionId": "practice_run_04",
+   "feedConcentrations": {
+    "substrateA": 0.141,
+    "reactantB": 0.17,
+    "catalystMolPercent": 1.21
+   },
+   "activationEnergyJoulePerMol": 27491.0,
+   "preExponentialFactor": 4130.5,
+   "dimerizationActivationEnergyJoulePerMol": 33401.4,
+   "dimerizationPreExponentialFactor": 158.9,
+   "targetTemperatureC": 34.0,
+   "totalPhotonBudgetJoules": 1200.0,
+   "targetPurityMin": 95.0,
+   "targetYieldMin": 85.0,
+   "targetConversionEfficiency": 0.95
+  },
+  "optics": {
+   "catalystAbsorbancePeakNm": 458.8,
+   "molarExtinctionCoefficient": 19838.7,
+   "channelVolumeUl": 250.0,
+   "pecletNumber": 43.3
+  },
+  "assay": {
+   "measuredConversionPercent": 90.0,
+   "byproductOligomerPercent": 0.61,
+   "apparentResidenceTimeSec": 72.9,
+   "probeMenu": [
+    {
+     "id": 0,
+     "name": "blue_450nm_short_pulse",
+     "base": 1.0,
+     "driftGain": 2.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    },
+    {
+     "id": 1,
+     "name": "uva_365nm_long_pulse",
+     "base": 0.0,
+     "driftGain": 0.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.4,
+      "thermal_oligomer_runaway": 0.7,
+      "catalyst_poisoning": 0.7
+     }
+    },
+    {
+     "id": 2,
+     "name": "violet_420nm_mid_pulse",
+     "base": 0.0,
+     "driftGain": 1.0,
+     "regimeOffset": {
+      "photobleaching_fade": 0.55,
+      "thermal_oligomer_runaway": 0.55,
+      "catalyst_poisoning": 1.1
+     }
+    },
+    {
+     "id": 3,
+     "name": "blue_450nm_long_pulse",
+     "base": 1.6,
+     "driftGain": 0.3,
+     "regimeOffset": {
+      "photobleaching_fade": 0.0,
+      "thermal_oligomer_runaway": 0.0,
+      "catalyst_poisoning": 0.0
+     }
+    }
+   ],
+   "probeBudget": 2,
+   "probeEnergyJoules": 155.0,
+   "probeNoise": 0.02
+  },
+  "quench": {
+   "scavengerConcentrationMolar": 0.053,
+   "reagentQuenchCapacity": 2
+  },
+  "kinetics": {
+   "reactionEnthalpyKJPerMol": -61.6,
+   "exothermDeltaT": 2.6
+  },
+  "harvest": {
+   "accumulatedPhotonEnergyJoules": 600.4,
+   "estimatedCrudeYieldPercent": 92.9
+  },
+  "hidden": {
+   "regime": "thermal_oligomer_runaway",
+   "drift": -0.132,
+   "noise": [
+    -0.0079,
+    0.0013,
+    -0.0194,
+    -0.0182
+   ]
+  }
+ }
+]
