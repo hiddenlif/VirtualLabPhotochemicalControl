@@ -26,9 +26,7 @@ The public model and practice driver implement the probe/readout exchange and ca
 
 ## Execution evidence
 
-Successful execution of this exact version was not established in the reviewed execution records. An older version has successful reference receipts; those results do not validate this version.
-
-The historical evidence concerns the source version. This publication separates public inputs from private evaluation material and cleans documentation. No new task execution or model trial was performed for this publication, and the cleaned repository has not been revalidated end to end.
+On 2026-10-24 this published repository was run end to end: with the private reference installed in `app/`, the private grader passed 20 of 20 sessions (reward 1); the unchanged starter passed 0 of 20 (reward 0). These are local reference results in Docker, not blind solver results or platform approval.
 
 ## Reference and verifier
 
