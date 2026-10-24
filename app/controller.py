@@ -5,10 +5,9 @@ exchange: first an `assay` message carrying the diagnostic probe menu (reply wit
 then a `probeReadouts` message carrying the readouts you paid for (reply with your compensation trims).
 The kinetic regime and quantum-yield drift are never disclosed ; infer them from the readouts.
 """
+
 import json
 import sys
-
-import public_model as M  # physics helpers, probe observation model, consistent_hypotheses
 
 
 class PhotochemicalController:

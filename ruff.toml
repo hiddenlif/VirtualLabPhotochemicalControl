@@ -1,0 +1,5 @@
+# Linted and formatted with ruff using its default rules. The per-file exceptions below are deliberate.
+
+[lint.per-file-ignores]
+# The practice driver reports a controller crash as a failed session and always cleans up the child.
+"app/test_practice.py" = ["BLE001", "S110"]
